@@ -1,0 +1,33 @@
+x = 2 * 4
+y = x + 1
+
+
+x += 1
+
+
+x = 10
+X = 555
+print(y)
+print(x, X)
+
+
+my_int = 10
+my_float = 5.25
+my_string = "Hello"
+my_boolean = True
+
+print("Interger", my_int, type(my_int))
+print("Float", my_float, type(my_float))
+print("string", my_string, type(my_string))
+print("Boolean", my_boolean, type(my_boolean))
+
+x = int(input("enter first number: "))
+y = int(input("enter second number: "))
+
+
+
+
+result = x + y
+print(x, "+", y, "=", result)
+print(f"{x} +  {y}  = {result}")
+
